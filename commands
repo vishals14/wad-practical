@@ -1,0 +1,16 @@
+// docker
+
+FROM alpine:latest
+CMD clear && echo "Hello, World!"
+
+  docker build -t hello-world .
+
+  docker run hello-world
+
+  //git
+
+  $git init
+$git add .
+$git commit -m “Here goes message”
+$git remote add origin {remote_link}
+$git push -u origin HEAD:master
